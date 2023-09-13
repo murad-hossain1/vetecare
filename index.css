@@ -168,3 +168,48 @@ ul li {
 }
 
 /* section 1 completed */
+.section-2 .s2-container {
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.section-2 .s2-container .s2-title {
+    width: 50%;
+    height: 800px;
+
+}
+
+.s2-img-section {
+    width: 50%;
+    height: 800px;
+}
+
+.s2-img-section img {
+    padding: 140px 0 0 60px;
+    z-index: 1;
+}
+
+.s2-title h2 {
+    font-size: 50px;
+    padding: 220px 50px 20px 0;
+}
+
+.s2-title p {
+    font-size: 25px;
+    font-weight: 500;
+    padding-right: 30px;
+    padding-bottom: 35px;
+}
+
+.s2-title a {
+    background-color: #fcc302;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 900;
+    width: 185px;
+    height: 70px;
+    padding: 25px 45px;
+}
+
+/* section-2 completed */
