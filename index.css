@@ -19,7 +19,6 @@ a {
 
 ul li {
     list-style-type: none;
-    display: inline-block;
 }
 
 /* --------------------------------------common style------------------------ */
@@ -53,6 +52,10 @@ ul li {
 
 .menu ul {
     padding-top: 30px;
+}
+
+.menu ul li {
+    display: inline-block;
 }
 
 .menu ul li a {
@@ -605,3 +608,102 @@ ul li {
 }
 
 /* section-8 completed */
+.footer-section {
+    width: 100%;
+    background-color: #343434;
+    color: #f9f9f9;
+}
+
+.footer-container {
+    position: relative;
+    width: 1220px;
+    height: 650px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+
+.fotter-section-left {
+    width: 50%;
+    height: 100%;
+    background-color: #343434;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotter-section-right {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #343434;
+    top: 0;
+    left: 50%;
+}
+
+.fotter-section-left .about-section h2 {
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.fotter-section-left .about-section {
+    margin-top: 170px;
+    padding-right: 115px;
+
+}
+
+.fotter-section-left .about-section ul li {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.footer-section-right-title {
+    text-align: end;
+    margin-top: 170px;
+}
+
+.footer-section-right-title h2 {
+    font-size: 35px;
+}
+
+.footer-section-right-title p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.telegram {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 530px;
+    height: 95px;
+    background-color: #fcc302;
+    margin-bottom: 40px;
+}
+
+.telegram-icon {
+    padding-left: 45px;
+    padding-top: 10px;
+    height: 95px;
+    width: 150px;
+    position: absolute;
+    background-color: #fcc302;
+    top: 0;
+    right: 0;
+}
+
+.telegram-icon img {
+    width: 75px;
+    height: 75px;
+    color: #00bec9;
+}
+
+.fotter-icon {
+    display: flex;
+    justify-content: end;
+}
+
+.fotter-icon img {
+    width: 80px;
+    height: 80px;
+    padding: 5px 0px 0px 10px;
+}
