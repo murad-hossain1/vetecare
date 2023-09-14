@@ -381,11 +381,69 @@ ul li {
 .section-5 {
     width: 100%;
     background-color: #fcc302;
+    color: #fff;
 }
 
 .s5-container {
     width: 1220px;
-    height: 1020px;
-    background-color: antiquewhite;
+    height: 910px;
+    background-color: #fcc302;
     margin: 0 auto;
 }
+
+.s5-title {
+    text-align: center;
+
+}
+
+.s5-title h2 {
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.s5-title p {
+    font-size: 25px;
+    padding: 0 330px;
+}
+
+.s5-img-section {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s5-img-section img {
+    border: 4px solid #fff;
+}
+
+.s5-subtitle {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 95px;
+    font-size: 20px;
+}
+
+.s5-subtitle .dlt-text {
+    text-decoration-line: line-through;
+}
+
+.s5-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 55px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.s5-button a {
+    width: 200px;
+    height: 60px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    background-color: #00bec9;
+    color: #fff;
+}
+
+/* section-5 completed */
