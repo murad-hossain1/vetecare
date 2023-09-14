@@ -378,3 +378,14 @@ ul li {
 }
 
 /* section-4 completed */
+.section-5 {
+    width: 100%;
+    background-color: #fcc302;
+}
+
+.s5-container {
+    width: 1220px;
+    height: 1020px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
