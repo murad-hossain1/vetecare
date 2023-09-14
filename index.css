@@ -386,7 +386,7 @@ ul li {
 
 .s5-container {
     width: 1220px;
-    height: 910px;
+    height: 950px;
     background-color: #fcc302;
     margin: 0 auto;
 }
@@ -517,3 +517,25 @@ ul li {
 }
 
 /* section-6 completed */
+.section-7 {
+    width: 100%;
+}
+
+.s7-container {
+    position: relative;
+    width: 1440px;
+    height: 575px;
+    margin: 0 auto;
+}
+
+.s7-overlay {
+    width: 1440px;
+    height: 575px;
+    position: absolute;
+    background-color: #fcc302;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+
+/* section-7 completed */
