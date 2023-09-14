@@ -546,7 +546,7 @@ ul li {
 .s8-container {
     width: 1220px;
     height: 1110px;
-    background-color: #f9f9f9;
+
     margin: 0 auto;
 }
 
@@ -576,7 +576,7 @@ ul li {
 .s8-all-img .s8-img {
     width: 342px;
     height: 660px;
-    background-color: #ffffff;
+    background-color: #f9f9f9;
 }
 
 .s8-img h2 {
