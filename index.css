@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@300;600&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@300;600;700&family=Rubik&display=swap');
 
 * {
     margin: 0;
@@ -447,3 +447,73 @@ ul li {
 }
 
 /* section-5 completed */
+.section-6 {
+    width: 100%;
+}
+
+.s6-container {
+    width: 1220px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.s6-title {
+    text-align: center;
+    margin-top: 145px;
+}
+
+.s6-title h2 {
+    font-size: 55px;
+    padding-bottom: 30px;
+}
+
+.s6-title p {
+    font-size: 25px;
+    padding: 0 210px;
+    font-weight: 600;
+}
+
+.s6-img-section {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s6-img-section img {
+    border: 4px solid #fff;
+}
+
+.s6-subtitle-all {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 90px;
+    text-align: center;
+}
+
+.s6-subtitle-all .s6-subtitle h2 {
+    font-size: 29px;
+}
+
+.s6-subtitle-all .s6-subtitle p {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.s6-all-icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    margin-bottom: 140px;
+}
+
+.s6-all-icon .s6-icon img {
+    width: 37px;
+    height: 37px;
+}
+
+.s6-all-icon .s6-icon a {
+    padding: 5px;
+}
+
+/* section-6 completed */
